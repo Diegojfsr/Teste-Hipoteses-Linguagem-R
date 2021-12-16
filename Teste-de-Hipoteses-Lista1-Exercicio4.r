@@ -43,7 +43,7 @@ print(tcal)
 
 # c) Regiao Critica
 #Ttabelado = tabelaT(nivel de significancia, grau de liberdade = tamanho da amostra - 1)
-ttab = qt(alpha, df=n-1)
+ttab = qt(alpha/2, df=n-2)
 print("O T tabelado é:")
 print(ttab)
 
